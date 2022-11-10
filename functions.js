@@ -31,9 +31,10 @@ function checkStock(num, food) {
         console.log(`${food} - OUT of stock!`)
     } else if (num <= 3) {
         console.log(`${food} - running LOW`)
-    } else 
+    } else {
         console.log(`${food} is stocked`)
     }
+}
     
 checkStock(4, "Coffee");
 // => "Coffee is stocked"
